@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "mongodb-rest": "^0.10.14",
+    "mongoose": "^4.4.3",
+    "nodemon": "^1.8.1",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,53 @@
+body {
+  padding: none;
+  margin: none;
+  background-image: url('Grand-Canyon-3.jpg')
+}
+form {
+  background-color: pink;
+  height: 40px;
+  top: 10px;
+}
+.input{
+  padding-top: 10px;
+}
+#ladder {
+  position: absolute;
+  left: 60%;
+  top: 8%;
+  text-align: middle;
+  background-color: #FF0099;
+  color: white;
+  width: 500px;
+}
+#coolStuff {
+  position: absolute;
+  right: 60%;
+  background-color: #330099;
+  color: white;
+  width: 300px;
+  height: 250px;
+  align-content: center;
+}
+p {
+  text-align: center;
+}
+li {
+  line-height: 1.4;
+  font-size: 24px;
+}
+#name {
+  text-align: center;
+  color: #FF0099;
+}
+#lad {
+  color: #330099;
+  text-align: center;
+}
+h2 {
+  display: inline;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
