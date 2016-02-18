@@ -8,7 +8,7 @@ var path = require('path');
 var fs = require('fs');
 var User = require('./../db/userModel');
 var mongoose = require('mongoose');
-var mongoURI = 'mongodb://localhost/players';
+var mongoURI = 'mongodb://heroku_kw036qs6:c5ofvhcq16f9096jj15fnbr0t1@ds011248.mongolab.com:11248/heroku_kw036qs6';
 mongoose.connect(mongoURI);
 
 app.use(cookieParser());

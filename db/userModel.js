@@ -1,10 +1,6 @@
 var mongoose = require('mongoose');
-var mongodbUri = 'mongodb://heroku_kw036qs6:c5ofvhcq16f9096jj15fnbr0t1@ds011248.mongolab.com:11248/heroku_kw036qs6'
 
-mongoose.connect(mongodbUri);
 
-var db = mongoose.connection;
-db.once('open', function() {
 var Schema = mongoose.Schema;
 var bcrypt = require('bcryptjs');
 
@@ -31,4 +27,3 @@ var userSchema = new Schema ({
 // });
 
 module.exports = mongoose.model('User', userSchema);
-});
